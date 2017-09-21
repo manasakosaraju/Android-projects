@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/r"
+    android:clickable="true"
+    android:background="#d5ffe2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VNRVJIET"
+        android:id="@+id/vnr"
+        android:autoLink="web"
+      android:clickable="true"
+        android:onClick="vnrl"
+        android:textSize="20sp"
+        android:textColor="#5512ff"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CBIT"
+        android:id="@+id/cbit"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="cbitl"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/vnr"
+        android:textColor="#5512ff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VCE"
+        android:id="@+id/vce"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="vcel"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cbit"
+        android:textColor="#5512ff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRIET"
+        android:id="@+id/griet"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="grietl"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/vce"
+        android:textColor="#5512ff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BVRIT"
+        android:id="@+id/bvrit"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="bvritl"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/griet"
+        android:textColor="#5512ff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SNIST"
+        android:id="@+id/snist"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="snistl"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bvrit"
+        android:textColor="#5512ff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IARE"
+        android:id="@+id/iare"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="iarel"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/snist"
+        android:textColor="#5512ff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OU"
+        android:id="@+id/ou"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="oul"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/iare"
+        android:textColor="#5512ff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNTUH"
+        android:id="@+id/jntu"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="jntuhl"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ou"
+        android:textColor="#5512ff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS"
+        android:id="@+id/vnrd"
+        android:layout_alignTop="@+id/vnr"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS"
+        android:id="@+id/cbitd"
+        android:layout_alignTop="@+id/cbit"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS"
+        android:id="@+id/vced"
+        android:layout_alignTop="@+id/vce"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS"
+        android:id="@+id/grietd"
+        android:layout_alignTop="@+id/griet"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS"
+        android:id="@+id/bvritd"
+        android:layout_alignTop="@+id/bvrit"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AFFILIATED TO JNTU"
+        android:id="@+id/snistd"
+        android:layout_alignTop="@+id/snist"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS"
+        android:id="@+id/iared"
+        android:layout_alignTop="@+id/iare"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIVERSITY"
+        android:id="@+id/oud"
+        android:layout_alignTop="@+id/ou"
+        android:layout_centerHorizontal="true" /> />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS"
+        android:id="@+id/jntud"
+        android:layout_alignTop="@+id/jntu"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/button9"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/vnr"
+        android:onClick="logout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:id="@+id/textView11"
+        android:layout_below="@+id/jntu"
+        android:background="@drawable/college"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
